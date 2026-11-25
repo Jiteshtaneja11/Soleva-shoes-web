@@ -1,0 +1,9 @@
+class: NewsletterSubscriber
+table: newsletter_subscriber
+fields:
+  email: String
+  subscribedAt: DateTime
+indexes:
+  newsletter_email_unique_idx:
+    fields: email
+    unique: true

@@ -1,0 +1,32 @@
+emailIdp:
+  - startOtpLogin:
+  - verifyOtpLoginCode:
+  - finishOtpLogin:
+  - finishOtpRegistration:
+  - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
+  - hasAccount:
+jwtRefresh:
+  - refreshAccessToken:
+product:
+  - getProducts:
+  - getProductById:
+  - getProductBySlug:
+  - getFeaturedProducts:
+  - getNewArrivals:
+  - getBestSellers:
+  - searchProducts:
+  - getProductsByCategory:
+  - getProductsWithFilters:
+  - getProductVariants:
+  - list:
+  - seed:
+greeting:
+  - hello:
+newsletter:
+  - subscribe:

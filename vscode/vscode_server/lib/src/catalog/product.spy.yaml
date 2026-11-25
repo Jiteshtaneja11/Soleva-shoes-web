@@ -1,0 +1,31 @@
+class: Product
+table: product
+fields:
+  name: String
+  slug: String
+  brand: String
+  category: String
+  gender: String
+  description: String
+  imageUrl: String
+  secondaryImageUrl: String
+  price: double
+  originalPrice: double?
+  discount: int
+  rating: double
+  reviewCount: int
+  colors: String
+  sizes: String
+  stock: int
+  featured: bool
+  bestSeller: bool
+  trending: bool
+  newArrival: bool
+  published: bool
+  createdAt: DateTime
+indexes:
+  product_slug_unique_idx:
+    fields: slug
+    unique: true
+  product_featured_idx:
+    fields: featured

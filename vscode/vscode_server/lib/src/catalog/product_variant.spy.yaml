@@ -1,0 +1,15 @@
+class: ProductVariant
+table: product_variant
+fields:
+  productId: int
+  color: String
+  size: String
+  sku: String
+  stock: int
+  imageUrl: String
+indexes:
+  product_variant_sku_unique_idx:
+    fields: sku
+    unique: true
+  product_variant_product_idx:
+    fields: productId
